@@ -1,0 +1,29 @@
+{
+  "name": "movie-marathon-api",
+  "version": "1.0.0",
+  "description": "URL rewritin API for moviemarathon.ca",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect-brk index.js",
+    "start": "node index.js",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoiscampbell/MovieMarathonApi.git"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "Francois Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/francoiscampbell/MovieMarathonApi/issues"
+  },
+  "homepage": "https://github.com/francoiscampbell/MovieMarathonApi#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4"
+  }
+}
